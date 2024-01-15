@@ -1,0 +1,4 @@
+< {%
+    client.global.get("id");
+%}
+DELETE {{general}}/{{id}}

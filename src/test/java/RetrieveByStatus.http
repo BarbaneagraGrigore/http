@@ -1,0 +1,5 @@
+#status = [available, pendind, sold]
+< {%
+    request.variables.set("status", "pendind")
+%}
+GET {{general}}/findByStatus?status={{status}}

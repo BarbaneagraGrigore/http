@@ -1,0 +1,4 @@
+< {%
+    client.global.get("id");
+%}
+GET {{general}}/{{id}}

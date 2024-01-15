@@ -1,0 +1,30 @@
+#status = [available, pendind, sold]
+< {%
+    request.variables.set("status", "pendind")
+%}
+POST {{general}}
+Content-Type: application/json
+
+{
+  "id": {{$randomInt}},
+  "category": {
+    "id": {{$randomInt}},
+    "name": "{{$random.hexadecimal(6)}}"
+  },
+  "name": "{{$random.hexadecimal(7)}}",
+  "photoUrls": [
+    "shy for now"
+  ],
+  "tags": [
+    {
+      "id": {{$randomInt}},
+      "name": "{{$random.hexadecimal(5)}}"
+    }
+  ],
+  "status": "{{status}}"
+}
+
+> {%
+    client.global.set("id", response.body.id);
+    client.global.set("name", response.body.name);
+%}

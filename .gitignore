@@ -1,1 +1,14 @@
 /src/test/java/RetrieveById.http
+/.idea/.gitignore
+/.idea/compiler.xml
+/src/test/java/Create.http
+/src/test/java/Delete.http
+/src/test/java/http-client.private.env.json
+/.idea/jarRepositories.xml
+/src/main/java/Main.java
+/.idea/misc.xml
+/pom.xml
+/src/main/resources/readme.md
+/src/test/java/RetrieveByStatus.http
+/.idea/uiDesigner.xml
+/src/test/java/Update.http
