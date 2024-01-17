@@ -1,4 +1,3 @@
-#Markdown
 🔍 Exploring the Main Differences Between HTTP Clients: IntelliJ IDEA and Postman
 
 Hey QA enthusiasts! 👋 Let's dive into the fascinating realm of HTTP clients and shed light on the distinctions between IntelliJ IDEA and Postman.
